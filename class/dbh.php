@@ -6,7 +6,7 @@ private static  $db;
 
 	protected static function db(){
 		try{
-		self::$db=new PDO('mysql:host=localhost;dbname=kanarya','root','admin000');
+		self::$db=new PDO('mysql:host=localhost;dbname=taslak','root','');
 		self::$db->exec("set names utf8");
 		return self::$db;	
 	}catch(PDOException  $e){

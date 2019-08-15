@@ -5,11 +5,9 @@
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home</a>
       </li>
+     
       <li class="nav-item active">
-        <a class="nav-link" href="?sayfa=islemler">Ders İşlemleri</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="?sayfa=islemler2">Hesap İşlemleri</a>
+        <a class="nav-link" href="?klasor=users&sayfa=hesap">Hesap</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="out.php">Çıkış</a>
