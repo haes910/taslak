@@ -1,0 +1,8 @@
+git remote add origin https://github.com/haes910/taslak.git
+****************
+git push -u origin master
+
+***************************************
+
+
+bash yolu :    /c/xampp/htdocs/taslak
