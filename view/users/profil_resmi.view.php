@@ -11,10 +11,10 @@ $user_row=$users->user('user_id',$_SESSION['user_id']);
 <form action="islem.php" method="POST" enctype="multipart/form-data" >
   <div class="form-group">
     <label for="inpFile">Bir Resim Seçiniz</label>
-    <input type="file" class="form-control-file" id="inpFile">
+    <input type="file" name="inpFile" class="form-control-file" id="inpFile">
   </div>
   <hr>   
-    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <button type="submit" name="submit" class="btn btn-primary">Kaydet</button>
     <!--gizli input bloğu-->
     <input type="hidden" name="klasor" value="users">
     <input type="hidden" name="islem" value="profil_resmi_ekleme">
