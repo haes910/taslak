@@ -7,7 +7,7 @@
       </li>
      
       <li class="nav-item active">
-        <a class="nav-link" href="?klasor=users&sayfa=hesap">Hesap</a>
+        <a class="nav-link" href="?klasor=users&sayfa=users&sol=users_menu">Hesap</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="out.php">Çıkış</a>

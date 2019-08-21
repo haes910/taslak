@@ -4,7 +4,7 @@
 $user_row=$users->user('user_id',$_SESSION['user_id']);
 if ($user_row['profilResmi']==0) { ?> <!--eğer profil resmi yoksa-->
   <div class="card" style="width: 18rem;">
-  <img src="img/images1.jpg" id="result" class="card-img-top" alt="...">
+  <img src="img/images1.jpg" id="result" class="card-img-top" style="width: 200px; height: 250px;">
   <div class="card-body">
     
 <form action="islem.php" method="POST" enctype="multipart/form-data" >
@@ -23,7 +23,7 @@ if ($user_row['profilResmi']==0) { ?> <!--eğer profil resmi yoksa-->
 </div>
 <?php } else{ ?> <!--eğer profil resmi varsa-->
    <div class="card" style="width: 18rem;">
-  <img src="<?php echo 'img/profil/'.$user_row['profilResmi'];?>" id="result" class="card-img-top" alt="...">
+  <img src="<?php echo 'img/profil/'.$user_row['profilResmi'];?>" id="result" class="card-img-top" style="width: 250px; height: 250px;">
   <div class="card-body">
     
 <form action="islem.php" method="POST" enctype="multipart/form-data" >

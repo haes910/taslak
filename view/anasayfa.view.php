@@ -1,1 +1,0 @@
-ana sayfadasın
